@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,500&display=swap");
+
+body {
+  padding: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(27, 42, 47);
+}
+
+.container {
+  width: 350px;
+}
+.prayer-blocks {
+  display: flex;
+}
+.prayer {
+  flex-grow: 1;
+  min-width: 40%;
+}
+#getLocationButton {
+  justify-self: center;
+  background-color: rgb(41, 204, 218);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: auto;
+}

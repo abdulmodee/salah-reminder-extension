@@ -1,0 +1,12 @@
+{
+    "manifest_version":3,
+    "name":"Salah Timing",
+    "version": "1.0.0",
+    "permissions": ["geolocation"],
+    "description": "Current Salah timing at select location",
+    "author": "Abdurrahman Modibbo", 
+    "action":{
+        "default_popup":"index.html",
+        "default title": "Current Salah Timing"
+    }
+}
