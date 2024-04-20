@@ -9,42 +9,50 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="index.css" />
-    <link rel="icon" type="image/x-icon" href="Icons\mosque512.png" />
+    <link rel="icon" type="image/x-icon" href="Assets/mosque512.png" />
   </head>
   <body>
     <div class="container">
-      <h2 class="text-center">Salah Timing</h2>
-      <span class="prayer-blocks">
-        <span class="prayer">Fajr</span>
-        <span id="Fajr"></span>
-      </span>
-      <hr />
-      <span class="prayer-blocks">
-        <span class="prayer">Sunrise</span>
-        <span id="Sunrise"></span>
-      </span>
-      <hr />
-      <span class="prayer-blocks">
-        <span class="prayer">Dhuhr</span>
-        <span id="Dhuhr"></span>
-      </span>
-      <hr />
-      <span class="prayer-blocks">
-        <span class="prayer">Asr</span>
-        <span id="Asr"></span>
-      </span>
-      <hr />
-      <span class="prayer-blocks">
-        <span class="prayer">Maghrib</span>
-        <span id="Maghrib"></span>
-      </span>
-      <hr />
-      <span class="prayer-blocks" style="padding-bottom: 30px">
-        <span class="prayer">Isha</span>
-        <span id="Isha"></span>
-      </span>
-
-      <button id="getLocationButton">Location</button>
+      <div id="inner-container">
+        <div class="top-icon">
+          <span><img src="Assets/mosque32.png" alt="Mosque Icons" /></span>
+        </div>
+        <h2 class="text-center">Salah Timing</h2>
+        <span class="prayer-blocks">
+          <span class="prayer">Fajr</span>
+          <span id="Fajr"></span>
+        </span>
+        <hr />
+        <span class="prayer-blocks">
+          <span class="prayer">Sunrise</span>
+          <span id="Sunrise"></span>
+        </span>
+        <hr />
+        <span class="prayer-blocks">
+          <span class="prayer">Dhuhr</span>
+          <span id="Dhuhr"></span>
+        </span>
+        <hr />
+        <span class="prayer-blocks">
+          <span class="prayer">Asr</span>
+          <span id="Asr"></span>
+        </span>
+        <hr />
+        <span class="prayer-blocks">
+          <span class="prayer">Maghrib</span>
+          <span id="Maghrib"></span>
+        </span>
+        <hr />
+        <span class="prayer-blocks" style="padding-bottom: 30px">
+          <span class="prayer">Isha</span>
+          <span id="Isha"></span>
+        </span>
+        <div class="btn-grp">
+          <button type="button" id="button-inner">
+            <span class="btn-text"> Remind Me </span>
+          </button>
+        </div>
+      </div>
     </div>
   </body>
   <script src="project.js"></script>

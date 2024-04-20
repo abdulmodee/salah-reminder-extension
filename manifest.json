@@ -2,7 +2,15 @@
     "manifest_version":3,
     "name":"Salah Timing",
     "version": "1.0.0",
-    "permissions": ["geolocation"],
+    "permissions": [
+        "geolocation", 
+        "notifications", 
+        "storage",
+        "alarms"
+    ],
+    "background" :{
+        "service-worker":"background.js"
+    },
     "description": "Current Salah timing at select location",
     "author": "Abdurrahman Modibbo", 
     "action":{
