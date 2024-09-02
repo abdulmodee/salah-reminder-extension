@@ -15,45 +15,16 @@
     <div class="container">
       <div id="inner-container">
         <div class="top-icon">
-          <span><img src="Assets/mosque32.png" alt="Mosque Icons" /></span>
+          <span><img src="Assets/mosque128.png" alt="Mosque Icon" /></span>
         </div>
         <h2 class="text-center">Salah Timing</h2>
-        <span class="prayer-blocks">
-          <span class="prayer">Fajr</span>
-          <span id="Fajr"></span>
-        </span>
-        <hr />
-        <span class="prayer-blocks">
-          <span class="prayer">Sunrise</span>
-          <span id="Sunrise"></span>
-        </span>
-        <hr />
-        <span class="prayer-blocks">
-          <span class="prayer">Dhuhr</span>
-          <span id="Dhuhr"></span>
-        </span>
-        <hr />
-        <span class="prayer-blocks">
-          <span class="prayer">Asr</span>
-          <span id="Asr"></span>
-        </span>
-        <hr />
-        <span class="prayer-blocks">
-          <span class="prayer">Maghrib</span>
-          <span id="Maghrib"></span>
-        </span>
-        <hr />
-        <span class="prayer-blocks" style="padding-bottom: 30px">
-          <span class="prayer">Isha</span>
-          <span id="Isha"></span>
-        </span>
+        <div id="prayers"></div>
         <div class="btn-grp">
-          <button type="button" id="button-inner">
-            <span class="btn-text"> Remind Me </span>
-          </button>
+          <button type="button" id="button-reminder">Remind Me</button>
+          <button type="button" id="button-stop-reminder">Stop Reminders</button>
         </div>
       </div>
     </div>
+    <script defer src="project.js"></script>
   </body>
-  <script src="project.js"></script>
 </html>

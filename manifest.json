@@ -1,20 +1,22 @@
 {
-    "manifest_version":3,
-    "name":"Salah Timing",
-    "version": "1.0.0",
-    "permissions": [
-        "geolocation", 
-        "notifications", 
-        "storage",
-        "alarms"
-    ],
-    "background" :{
-        "service-worker":"background.js"
-    },
-    "description": "Current Salah timing at select location",
-    "author": "Abdurrahman Modibbo", 
-    "action":{
-        "default_popup":"index.html",
-        "default title": "Current Salah Timing"
-    }
+  "manifest_version": 3,
+  "name": "Salah Timing",
+  "version": "1.0.0",
+  "permissions": ["geolocation", "notifications", "storage", "alarms"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "description": "Current Salah timing at desired location",
+  "author": "Abdurrahman Modibbo",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Current Salah Timing"
+  },
+  "icons": {
+    "16": "Assets/mosque16.png",
+    "48": "Assets/mosque32.png",
+    "128": "Assets/mosque128.png",
+    "512": "Assets/mosque512.png"
+  }
 }
