@@ -15,7 +15,7 @@ Awaiting review by Google Chrome Web Store team, links to the extension would be
 
 ###### Clone or Download the Repository:
 
-`git clone https://github.com/abdulmodee/salah-timings.git`
+`git clone https://github.com/abdulmodee/salah-reminder-extension.git`
 
 or download the ZIP file and extract it.
 
